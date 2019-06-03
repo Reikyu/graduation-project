@@ -5,5 +5,7 @@ Wild animals which lose their habitat and don't find feed show up at city and fa
 There are some limitations to our project.
 First, as you can see by looking at the code, color recognition is being used due to time and technical constraints. In order for this technology to be practical, it will be necessary to build a database of features extracted from photographs of wild animals and use object recognition technology. 
 
-Second, Since it is based on the assumption that one wild animal appears at a time, it will also need to be dealt with.
+Second, since it is based on the assumption that one wild animal appears at a time, it will also need to be dealt with.
 We measure the center coordinates and distance of an object to control its direction and velocity. if more than two target appears, there will be an error.
+
+Third, we used it very low resolution because of the performance of the raspberry pie. f you use a high-performance PC, we recommend increasing resolution.
