@@ -102,7 +102,7 @@ try:
     while True:
         # Get frameset of color and depth
         frames = pipeline.wait_for_frames()
-        # frames.get_depth_frame() is a 640x360 depth image
+        # frames.get_depth_frame() is a 480x270 depth image
 
         # Align the depth frame to color frame
         aligned_frames = align.process(frames)
