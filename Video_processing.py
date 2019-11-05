@@ -5,7 +5,7 @@ import cv2
 #import serial
 
 #Create serial
-#ser = serial.Serial("/dev/", timeout=0.5)
+#ser = serial.Serial("/dev/", 115200)
 #ser.open()
 
 #setting the roi for camshift
