@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 #import serial
 
-#Create server
+#Create serial
 #ser = serial.Serial("/dev/", timeout=0.5)
 #ser.open()
 
